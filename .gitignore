@@ -1,3 +1,10 @@
+# hide all files and folders starting with .
+.*
+.*/
+
+# NLP
+cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -135,10 +142,13 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+pyvenv.cfg
 .env
 .envrc
 .venv
 env/
+Scripts/
+Include/
 venv/
 ENV/
 env.bak/
