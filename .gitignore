@@ -5,6 +5,13 @@
 # NLP
 cache/
 
+# jupyter
+etc/
+share/
+
+# colab
+content/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
